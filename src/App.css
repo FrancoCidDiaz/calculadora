@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Helvetica';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 400px) {
+  
+  .calculadora-div{
+    width: 65%;
   }
-}
+   
+   }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 625px) {
+  
+  .calculadora-div{
+    width: 45%;
   }
-  to {
-    transform: rotate(360deg);
+   
+   }
+
+@media (min-width: 750px) {
+  
+  .calculadora-div{
+    width: 40%;
   }
+   
+   }
+
+
+
+@media (min-width: 900px) {
+  
+  .calculadora-div{
+    width: 35%;
+  }
+   
+   }
+
+
+
+@media (min-width: 1050px) {
+  
+  .calculadora-div{
+    width: 28%;
+  }
+   
+   }
+
+
+
+
+
+@media (min-width: 1200px) {
+  
+.calculadora-div{
+  width: 25%;
 }
+ 
+ }
+
+ @media (min-width: 1400px) {
+  
+  .calculadora-div{
+    width: 18%;
+  }
+   
+   }
+
+
+   @media (max-width: 300px) {
+  
+    .calculadora-div{
+      width: 76%;
+    }
+     
+     }
+
+     
+   @media (max-width: 350px) {
+  
+    .calculadora-div{
+      width: 73%;
+    }
+     
+     }
